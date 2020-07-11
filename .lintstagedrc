@@ -1,0 +1,4 @@
+{
+	"*!(package-lock).{js,jsx,ts,tsx,json}": ["prettier --write"],
+	".{prettierrc,lintstagedrc,huskyrc}": ["prettier --write"]
+}

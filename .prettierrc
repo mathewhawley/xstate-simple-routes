@@ -1,0 +1,21 @@
+{
+	"semi": true,
+	"useTabs": true,
+	"tabWidth": 2,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"overrides": [
+		{
+			"files": ["*.json", ".prettierrc", ".huskyrc", ".lintstagedrc"],
+			"options": {
+				"parser": "json"
+			}
+		},
+		{
+			"files": ["*.ts", "*.tsx"],
+			"options": {
+				"printWidth": 100
+			}
+		}
+	]
+}
