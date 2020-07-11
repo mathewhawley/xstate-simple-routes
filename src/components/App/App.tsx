@@ -1,8 +1,8 @@
 import React from 'react';
-import { Trunk } from 'components/PageLayout';
+import SiteHeader from 'components/SiteHeader';
 
 function App() {
-	return <Trunk>Hello, world!</Trunk>;
+	return <SiteHeader />;
 }
 
 export default App;
